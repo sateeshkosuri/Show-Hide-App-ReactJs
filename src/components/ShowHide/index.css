@@ -1,0 +1,41 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-size: 15px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border: none;
+  margin-left: 20px;
+  margin-right: 30px;
+  padding: 10px;
+}
+.name-card {
+  background-color: #fddddb;
+  height: 100px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 30px;
+}
